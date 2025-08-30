@@ -12,6 +12,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://cdn.jsdelivr.net/npm/@coreui/icons/css/all.min.css" rel="stylesheet">
+
     <script src="./js/project.js"></script>
   </head>
 
@@ -185,6 +187,66 @@
             </p>
           </div>
         </div>
+        <div class="card">
+          <i class="fa-brands fa-react"></i>
+          <h5>REACT</h5>
+          <div class="pra">
+            <p>
+              React is a powerful JavaScript library used for building fast, 
+              interactive user interfaces, especially for single-page applications.
+              It allows developers to create reusable UI components and manage
+               application state efficiently using a virtual DOM.
+            </p>
+            <p style="text-align: center">
+              <a
+                class="button"
+                href="https://react.dev/"
+                target="_blank"
+                >Read More</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fa-brands fa-node"></i>
+          <h5>Node.js & Express.js</h5>
+          <div class="pra">
+            <p>
+              Node.js is a runtime environment that lets you run JavaScript on 
+              the server side to build scalable and fast backend applications.
+              Express.js is a lightweight web application framework for Node.js 
+              that simplifies building APIs and handling HTTP requests.
+            </p>
+            <p style="text-align: center">
+              <a
+                class="button"
+                href="https://expressjs.com/"
+                target="_blank"
+                >Read More</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-database"></i>
+          <h5>MongoDB</h5>
+          <div class="pra">
+            <p>
+              MongoDB is a NoSQL database that stores data in flexible, 
+              JSON-like documents, making it easy to handle unstructured data.
+              It is highly scalable and ideal for applications 
+              that require real-time analytics, big data, or frequent updates.
+            </p>
+            <p style="text-align: center">
+              <a
+                class="button"
+                href="https://www.mongodb.com/docs/"
+                target="_blank"
+                >Read More</a
+              >
+            </p>
+          </div>
+        </div>
         <div class="card coming-soon">
           <i class="fa-solid fa-hourglass-half"></i>
           <h5>Coming Soon</h5>
@@ -207,25 +269,35 @@
         <h2 id="project">Projects</h2>
       </div>
       <div class="box">
-        <div
-          style="margin-left: 60px"
-          class="card2"
-          onclick="redirectTo('project.html')"
-        >
-          <div class="ribbon">Portfolio Website</div>
+        <!-- Portfolio Website -->
+        <div style="margin-left: 60px" class="card2">
+          <div class="ribbon">
+            <img src="photos/portfolio.jpg" style="width: 100%; height: auto;" />
+          </div>
         </div>
-        <div class="card2" onclick="redirectTo('html/game.html')">
-          <div class="ribbon">Tic Tac Toe Game</div>
+        <div style="margin-left: 60px" class="card2">
+          <div class="ribbon">
+            <img src="photos/tictactoe.jpeg" style="width: 100%; height: auto;" />
+          </div>
         </div>
-        <div
-          style="margin-right: 60px"
-          class="card2"
-          onclick="redirectTo('project.html')"
-        >
-          <div class="ribbon">Upcoming</div>
+    
+        <!-- Tic Tac Toe Game -->
+        <div class="card2">
+          <div class="ribbon">
+            <img src="photos/bus.png" alt="Tic Tac Toe Game" style="width: 100%; height: auto;" />
+          </div>
+        </div>
+        
+    
+        <!-- Upcoming -->
+        <div style="margin-right: 60px" class="card2">
+          <div class="ribbon">
+            <img src="photos/snapnest.png" alt="Upcoming Project" style="width: 100%; height: auto;" />
+          </div>
         </div>
       </div>
     </div>
+    
     <div class="service">
       <div class="title">
         <h2 id="Activity">Activities</h2>
@@ -265,6 +337,21 @@
             </p>
           </div>
         </div>
+        <div class="card">
+          <i class="fa-solid fa-people-group"></i>
+          <h5>CODEVOLT</h5>
+          <h4>PROBLEM STATEMENT: enhancement of raptee vexhile interface</h4>
+          <div class="pra">
+            <p>
+              This hackathon conducted in VIT (chennai) i was a got environmentby this hackathon i learned 
+              so many things new Technologies new freinds i learned lot i enjoyed a 
+              lot seen new great people inspiring talks
+            </p>
+            <p style="text-align: center; margin-bottom: 50px">
+              <a class="button" href="./html/2ndhacthon.html">Read More</a>
+            </p>
+          </div>
+        </div>
         <div class="card coming-soon">
           <i class="fa-solid fa-hourglass-half"></i>
           <h5>Coming Soon</h5>
@@ -297,10 +384,10 @@
       </div>
       <div class="box">
         <div style="margin-left: 60px" class="card2">
-          <img class="certifi" src="photos/Screenshot 2024-01-19 210426.png" />
+          <img class="certifi" src="photos/awscerticication.jpg" />
         </div>
         <div style="margin-right: 60px" class="card2">
-          <img class="certifi" src="photos/Screenshot 2024-01-19 210442.png" />
+          <img class="certifi" src="photos/MERN.png" />
         </div>
       </div>
     </div>
@@ -316,12 +403,7 @@
             class="card2"
             onclick="redirectTo('https://leetcode.com/pdivyeshkumar22/')"
           >
-            <i>
-              <iconify-icon
-                icon="simple-icons:leetcode"
-                style="margin-top: 26%"
-              ></iconify-icon
-            ></i>
+          <i class="cib-leetcode"></i>
             <h5>Leet Code</h5>
             <div class="pra">
               <p>
